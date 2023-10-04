@@ -1,14 +1,22 @@
 body {
-  font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #242545, #1BFFFF);
+  background-size: 100% 200%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .main-container {
-  width: 500px;
+  width: 600px;
+  height: auto;
   background-color: #e4e4d7;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.main-container:hover{
+ box-shadow: 5px 5px 5px #d18a8a;
 }
 
 .inputs {
@@ -18,6 +26,9 @@ body {
   border-radius: 5px;
   padding: 5px;
   font-size: 16px;
+}
+.inputs:hover{
+  box-shadow: 2px 2px  #2196F3;
 }
 
 .list {
@@ -66,5 +77,5 @@ body {
 
 .btn:hover,
 .upd:hover {
-  background: #45a049;
+  background: #023604;
 }
